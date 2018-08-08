@@ -43,7 +43,7 @@ public class NumofCart {
     }
     public static void main1(String[] args) {
         Scanner sc = new Scanner(System.in);
-        List<Integer> list = new LinkedList<>();
+        List<Integer> list = new LinkedList<Integer>();
         while (sc.hasNext()){
             list.add(sc.nextInt());
         }

@@ -8,8 +8,8 @@ import java.util.Stack;
  */
 public class StackWithMinElement {
 
-    private Stack<Integer> stackData = new Stack<>();
-    private Stack<Integer> stackMin = new Stack<>();
+    private Stack<Integer> stackData = new Stack<Integer>();
+    private Stack<Integer> stackMin = new Stack<Integer>();
 
     public void push(int num){
         stackData.push(num);

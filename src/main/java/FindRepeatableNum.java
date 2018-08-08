@@ -12,7 +12,7 @@ public class FindRepeatableNum {
             System.out.println("Empty nums");
             return;
         }
-        HashSet<Integer> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<Integer>();
         for (int i = 0; i < nums.length ; i++) {
             while (nums[i] != i){
                 if (nums[nums[i]] == nums[i]){
